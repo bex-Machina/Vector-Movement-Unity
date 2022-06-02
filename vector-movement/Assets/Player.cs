@@ -10,6 +10,6 @@ public class Player : MonoBehaviour
         Vector3 direction = input.normalized;
         Vector3 velocity = direction * speed;
         Vector3 amountToMove = velocity * Time.deltaTime;
-        transform.position += amountToMove;
+        transform.Translate(amountToMove);
     }
 }
