@@ -33,6 +33,8 @@ public class Player2 : MonoBehaviour
         {
             Destroy(item.gameObject);
             coinCount++;
+            print(coinCount);
         }
+
     }
 }
