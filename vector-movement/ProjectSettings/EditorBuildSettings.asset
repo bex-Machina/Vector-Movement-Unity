@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: d86aecf71b1b4c9408131d320774b5fd
+  - enabled: 1
+    path: Assets/Scenes/Movement.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Rotation.unity
+    guid: 2c3346bd681c9ff409341c5381936cec
+  - enabled: 1
+    path: Assets/Scenes/collisionDetection.unity
+    guid: d12031b4dfa568e44936506c1ac2b7ab
   m_configObjects: {}
